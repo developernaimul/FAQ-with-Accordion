@@ -38,7 +38,7 @@ body{
     background: url(https://media.istockphoto.com/photos/modern-computerlaptop-with-blank-screen-on-counter-barand-window-view-picture-id1157789866?b=1&k=20&m=1157789866&s=170667a&w=0&h=XDdkkxtHlghnmrdl8NGE_GlRcPlOFLJkAlZa8N4E5Jg=) center no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     padding: 50px 0;
     display: flex;
     justify-content: flex-start;
@@ -130,4 +130,8 @@ body{
 .accordion-items .accordion-body .accordion-content p{
     color: #fff;
     font-weight: normal;
+}
+.accordion-items .accordion-body .accordion-content p a{
+    color: #fff;
+    color: #fff;
 }
